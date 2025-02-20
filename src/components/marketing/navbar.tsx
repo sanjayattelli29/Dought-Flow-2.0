@@ -1,7 +1,6 @@
 "use client";
 
 import { cn } from "@/functions";
-import { useClerk } from "@clerk/nextjs";
 import { ArrowRightIcon, XIcon } from "lucide-react";
 import Link from "next/link";
 import { useEffect, useState } from 'react';
@@ -12,9 +11,6 @@ import Menu from "./menu";
 import MobileMenu from "./mobile-menu";
 
 const Navbar = () => {
-
-    const { user } = useClerk();
-
     const [isOpen, setIsOpen] = useState<boolean>(false);
 
     useEffect(() => {
@@ -28,7 +24,6 @@ const Navbar = () => {
             document.body.style.overflow = '';
         };
     }, [isOpen]);
-
 
     return (
         <div className="relative w-full h-full">
@@ -51,27 +46,19 @@ const Navbar = () => {
                             </div>
                         </div>
                         <div className="items-center flex gap-2 lg:gap-4">
-                            {user ? (
-                                <Button size="sm" variant="white" asChild className="hidden sm:flex">
-                                    <Link href="/app">
-                                        Dashboard
+                            <>
+                                <Button size="sm" variant="tertiary" asChild className="hover:translate-y-0 hover:scale-100">
+                                    <Link href="/auth/signin">
+                                        Login
                                     </Link>
                                 </Button>
-                            ) : (
-                                <>
-                                    <Button size="sm" variant="tertiary" asChild className="hover:translate-y-0 hover:scale-100">
-                                        <Link href="/auth/signin">
-                                            Login
-                                        </Link>
-                                    </Button>
-                                    <Button size="sm" variant="white" asChild className="hidden sm:flex">
-                                        <Link href="/auth/signup">
-                                            Start for free
-                                            <ArrowRightIcon className="w-4 h-4 ml-2 hidden lg:block" />
-                                        </Link>
-                                    </Button>
-                                </>
-                            )}
+                                <Button size="sm" variant="white" asChild className="hidden sm:flex">
+                                    <Link href="/auth/signup">
+                                        Start for free
+                                        <ArrowRightIcon className="w-4 h-4 ml-2 hidden lg:block" />
+                                    </Link>
+                                </Button>
+                            </>
                             <Button
                                 size="icon"
                                 variant="ghost"
@@ -85,9 +72,8 @@ const Navbar = () => {
                     <MobileMenu isOpen={isOpen} setIsOpen={setIsOpen} />
                 </Wrapper>
             </header>
-
         </div>
-    )
+    );
 };
 
-export default Navbar
+export default Navbar;

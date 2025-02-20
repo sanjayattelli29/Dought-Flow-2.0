@@ -17,7 +17,7 @@ interface MetadataProps {
 }
 
 export const generateMetadata = ({
-    title = `${process.env.NEXT_PUBLIC_APP_NAME} - Smart Social Media Marketing Platform`,
+    title = `${process.env.NEXT_PUBLIC_APP_NAME || "NoteApp"} - Smart Social Media Marketing Platform`,
     description = "Streamline your social media management with AI-powered analytics, scheduling, and content optimization. Get real-time insights, automate posts, and boost engagement across all platforms",
     image = "/thumbnail.png",
     icons = [
