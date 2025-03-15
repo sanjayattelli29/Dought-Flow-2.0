@@ -9,73 +9,73 @@ export const REVIEWS: REVIEW[] = [
     {
         name: "Arjun Singh",
         username: "@arjunsingh",
-        review: "This platform has revolutionized the way I manage my projects. The AI tools are a game-changer!",
+        review: "NotesGalaxy has transformed the way I organize my study materials. The AI-powered summaries are incredibly useful!",
         img: "https://randomuser.me/api/portraits/men/1.jpg"
     },
     {
         name: "Priya Nair",
         username: "@priyanair",
-        review: "Absolutely love the seamless integration with social media. It's made my content creation process so much easier.",
+        review: "I love the seamless access to high-quality notes. It has saved me hours of research!",
         img: "https://randomuser.me/api/portraits/women/2.jpg"
     },
     {
         name: "Rohan Mehta",
         username: "@rohanmehta",
-        review: "The features offered here are unmatched. My productivity has soared since I started using this service.",
+        review: "The collaborative features on NotesGalaxy make group studies so much more efficient. Highly recommend!",
         img: "https://randomuser.me/api/portraits/men/3.jpg"
     },
     {
         name: "Sneha Patel",
         username: "@snehapatel",
-        review: "Customer support is top-notch. They’re always ready to assist with any queries I have.",
+        review: "I can create, edit, and share my notes effortlessly. The UI is smooth and intuitive!",
         img: "https://randomuser.me/api/portraits/women/4.jpg"
     },
     {
         name: "Ankit Sharma",
         username: "@ankitsharma",
-        review: "The customization options available are perfect for my business needs. Highly recommended!",
+        review: "NotesGalaxy's flashcards and revision tools have made my exam prep so much easier!",
         img: "https://randomuser.me/api/portraits/men/5.jpg"
     },
     {
         name: "Meera Kapoor",
         username: "@meerakapoor",
-        review: "The intuitive design and ease of use make this platform stand out. It's a must-have for any business.",
+        review: "The AI-driven note suggestions help me fill in gaps in my understanding instantly!",
         img: "https://randomuser.me/api/portraits/women/6.jpg"
     },
     {
         name: "Vikram Desai",
         username: "@vikramdesai",
-        review: "From analytics to AI-powered tools, this service covers everything I need to grow my business.",
+        review: "From handwritten notes conversion to AI-generated insights, NotesGalaxy does it all!",
         img: "https://randomuser.me/api/portraits/men/7.jpg"
     },
     {
         name: "Anjali Menon",
         username: "@anjalimenon",
-        review: "I’m impressed with how much value I’m getting at this price point. It's worth every penny!",
+        review: "The ability to access notes anytime, anywhere, has made my learning experience truly flexible.",
         img: "https://randomuser.me/api/portraits/women/8.jpg"
     },
     {
         name: "Karan Gupta",
         username: "@karangupta",
-        review: "The AI content generation is phenomenal. It saves me hours of work every week.",
+        review: "The AI note summarization feature is a lifesaver. It condenses long lectures into concise notes!",
         img: "https://randomuser.me/api/portraits/men/9.jpg"
     },
     {
         name: "Neha Verma",
         username: "@nehaverma",
-        review: "I love how everything is organized in one place. It makes managing my tasks so much easier.",
+        review: "The topic-wise organization and search feature help me find exactly what I need in seconds.",
         img: "https://randomuser.me/api/portraits/women/10.jpg"
     },
     {
         name: "Siddharth Jain",
         username: "@siddharthjain",
-        review: "Their platform is robust, and I have seen a significant improvement in my workflow since I started using it.",
+        review: "I love how I can highlight key points and make annotations easily on NotesGalaxy!",
         img: "https://randomuser.me/api/portraits/men/11.jpg"
     },
     {
         name: "Divya Iyer",
         username: "@divyaiyer",
-        review: "Fantastic service! The updates and new features keep getting better and better.",
+        review: "With NotesGalaxy’s cloud sync, I never lose my notes. Perfect for students and professionals!",
         img: "https://randomuser.me/api/portraits/women/12.jpg"
     }
 ];

@@ -18,71 +18,81 @@ const Menu = () => {
         <NavigationMenu>
             <NavigationMenuList>
                 <NavigationMenuItem>
-                    <Link href="/docs" legacyBehavior passHref>
-                        <NavigationMenuLink className="h-10 px-4 py-2 text-sm font-normal rounded-md text-muted-foreground hover:text-foreground w-max hover:bg-none">
+                <Link href="#howitworks" legacyBehavior passHref>
+                <NavigationMenuLink className="h-10 px-4 py-2 text-sm font-normal rounded-md text-muted-foreground hover:text-foreground w-max hover:bg-none">
                             How it works
                         </NavigationMenuLink>
                     </Link>
                 </NavigationMenuItem>
                 <NavigationMenuItem>
-                    <NavigationMenuTrigger className="text-muted-foreground hover:text-foreground">
-                        Features
-                    </NavigationMenuTrigger>
+                <NavigationMenuTrigger
+    className="text-muted-foreground hover:text-foreground cursor-pointer"
+    onClick={() => document.getElementById("Tools-section")?.scrollIntoView({ behavior: "smooth" })}
+>
+    Features
+</NavigationMenuTrigger>
+
                     <NavigationMenuContent>
                         <ul className="grid rounded-3xl gap-3 p-4 md:w-[400px] lg:w-[500px] xl:w-[550px] lg:grid-cols-[.75fr_1fr]">
                             <li className="row-span-3">
                                 <NavigationMenuLink asChild>
                                     <Link
-                                        href="/"
+                                        href=""
                                         className="flex flex-col justify-end w-full h-full p-4 no-underline rounded-lg outline-none select-none bg-gradient-to-tr from-accent to-accent/50 focus:shadow-md"
                                     >
                                         <Icons.icon className="w-6 h-6" />
                                         <div className="my-2 text-lg font-normal">
-                                            Luro AI
+                                            NotesGalaxy
                                         </div>
                                         <p className="text-sm text-muted-foreground">
-                                            Your ultimate social media management tool
+                                            Your ultimate Task, Notes, Media management tool
                                         </p>
                                     </Link>
                                 </NavigationMenuLink>
                             </li>
-                            <Item title="Content Calendar" href="/features/content-calendar" icon={<CalendarRangeIcon className="w-5 h-5" />}>
-                                Plan and visualize your content strategy.
-                            </Item>
-                            <Item title="Hashtag Manager" href="/features/hashtag-manager" icon={<HashIcon className="w-5 h-5" />}>
-                                Research and track trending hashtags.
-                            </Item>
-                            <Item title="Competitor Analysis" href="/features/competitor-analysis" icon={<UsersIcon className="w-5 h-5" />}>
-                                Monitor and analyze competitor performance.
-                            </Item>
+                            <Item title="Notes Organizer" href="#" icon={<CalendarRangeIcon className="w-5 h-5" />}>
+    Organize and access your notes effortlessly.
+</Item>
+<Item title="Task Manager" href="#" icon={<HashIcon className="w-5 h-5" />}>
+    Plan, track, and complete your tasks efficiently.
+</Item>
+<Item title="File Storage" href="#" icon={<UsersIcon className="w-5 h-5" />}>
+    Securely store and manage your important files.
+</Item>
+
                         </ul>
                     </NavigationMenuContent>
                 </NavigationMenuItem>
                 <NavigationMenuItem>
-                    <Link href="/pricing" legacyBehavior passHref>
-                        <NavigationMenuLink className="h-10 px-4 py-2 text-sm font-normal rounded-md text-muted-foreground hover:text-foreground w-max hover:bg-none">
-                            Pricing
-                        </NavigationMenuLink>
-                    </Link>
-                </NavigationMenuItem>
-                <NavigationMenuItem>
-                    <Link href="/integrations" legacyBehavior passHref>
-                        <NavigationMenuLink className="h-10 px-4 py-2 text-sm font-normal rounded-md text-muted-foreground hover:text-foreground w-max hover:bg-none">
-                            Integrations
-                        </NavigationMenuLink>
-                    </Link>
-                </NavigationMenuItem>
+    <NavigationMenuLink
+        className="h-10 px-4 py-2 text-sm font-normal rounded-md text-muted-foreground hover:text-foreground w-max hover:bg-none cursor-pointer"
+        onClick={() => document.getElementById("pricing-section")?.scrollIntoView({ behavior: "smooth" })}
+    >
+        Pricing
+    </NavigationMenuLink>
+</NavigationMenuItem>
+
+
+<NavigationMenuItem>
+    <NavigationMenuLink
+        className="h-10 px-4 py-2 text-sm font-normal rounded-md text-muted-foreground hover:text-foreground w-max hover:bg-none cursor-pointer"
+        onClick={() => document.getElementById("features-section")?.scrollIntoView({ behavior: "smooth" })}
+    >
+        Tools 
+    </NavigationMenuLink>
+</NavigationMenuItem>
+
                 <NavigationMenuItem>
                     <NavigationMenuTrigger className="text-muted-foreground hover:text-foreground">
                         Resources
                     </NavigationMenuTrigger>
                     <NavigationMenuContent>
                         <ul className="grid w-[400px] gap-3 p-4 md:w-[400px] md:grid-cols-2 lg:w-[500px] xl:w-[500px]">
-                            <Item title="Blog" href="/resources/blog" icon={<Newspaper className="w-5 h-5" />}>
-                                Read our latest articles and updates.
+                            <Item title="Blog" href="#" icon={<Newspaper className="w-5 h-5" />}>
+                            Explore guides, tips, and best practices.
                             </Item>
-                            <Item title="Support" href="/resources/support" icon={<CircleHelp className="w-5 h-5" />}>
-                                Get help with any issues you may have.
+                            <Item title="Support" href="#" icon={<CircleHelp className="w-5 h-5" />}>
+                            Get assistance and troubleshoot issues.
                             </Item>
                         </ul>
                     </NavigationMenuContent>

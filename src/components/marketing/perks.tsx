@@ -8,13 +8,13 @@ const Perks = () => {
     return (
         <div className="flex flex-col items-center justify-center py-12 md:py-16 lg:py-24 w-full">
             <Container>
-                <div className="flex flex-col items-center text-center max-w-2xl mx-auto">
-                    <SectionBadge title="Perks" />
+                <div id="features-section" className="flex flex-col items-center text-center max-w-2xl mx-auto">
+                    <SectionBadge title="NotesGalaxy" />
                     <h2 className="text-2xl md:text-4xl lg:text-5xl font-heading font-medium !leading-snug mt-6">
-                        Discover the benefits
+                        Create, Organize, and Share Notes Effortlessly
                     </h2>
                     <p className="text-base md:text-lg text-center text-accent-foreground/80 mt-6">
-                        Explore the powerful features and advantages that Luro offer to help you grow your social media presence
+                        Discover how NotesGalaxy helps you seamlessly manage your notes, collaborate, and enhance productivity with ease.
                     </p>
                 </div>
             </Container>
@@ -74,4 +74,4 @@ const Perk = ({
     );
 };
 
-export default Perks
+export default Perks;

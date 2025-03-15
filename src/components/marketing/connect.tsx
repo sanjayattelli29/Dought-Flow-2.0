@@ -5,15 +5,15 @@ import { SectionBadge } from "../ui/section-bade";
 
 const Connect = () => {
     return (
-        <div className="flex flex-col items-center justify-center py-8 md:py-12 w-full">
+        <div id="howitworks"className="flex flex-col items-center justify-center py-8 md:py-12 w-full">
             <Container>
                 <div className="flex flex-col items-center text-center max-w-2xl mx-auto">
-                    <SectionBadge title="Connect Tools" />
+                    <SectionBadge title="Connect with NotesGalaxy" />
                     <h2 className="text-2xl md:text-4xl lg:text-5xl font-heading font-medium !leading-snug mt-6">
-                        Seamless Integration with your favorite tools
+                        Seamless Integration Your Favorite Productivity Tools
                     </h2>
                     <p className="text-base md:text-lg text-center text-accent-foreground/80 mt-6">
-                        We support a wide range of integrations to help you connect your favorite tools with our platform
+                        NotesGalaxy supports a wide range of integrations to help you connect and streamline your workflow effortlessly.
                     </p>
                 </div>
             </Container>

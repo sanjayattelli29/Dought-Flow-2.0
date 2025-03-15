@@ -13,59 +13,59 @@ type PLAN = {
 export const PLANS: PLAN[] = [
     {
         id: "free",
-        title: "Free",
-        desc: "Get started with essential tools for social media content creation",
+        title: "Basic",
+        desc: "Start organizing and sharing notes with essential features.",
         monthlyPrice: 0,
         yearlyPrice: 0,
         buttonText: "Get Started",
         features: [
-            "Basic AI content generation",
-            "4 social media integrations",
+            "Unlimited personal notes",
+            "Basic text formatting",
+            "Cloud sync across devices",
             "Community support",
-            "1 project limit",
-            "Standard analytics",
-            "Basic image generation"
+            "1 shared workspace",
+            "Standard search functionality"
         ],
-        link: "https://stripe.com/free-plan-link"
+        link: "https://notesgalaxy.com/free-plan"
     },
     {
         id: "pro",
         title: "Pro",
-        desc: "Unlock advance features for enhanced content and strategy",
-        monthlyPrice: 10,
-        yearlyPrice: 120,
+        desc: "Unlock powerful tools for better note organization and collaboration.",
+        monthlyPrice: 8,
+        yearlyPrice: 80,
         badge: "Most Popular",
         buttonText: "Upgrade to Pro",
         features: [
-            "Advanced AI content generation",
-            "10 social media integrations",
-            "Priority email support",
-            "10 project limit",
-            "Enhanced analytics & insights",
-            "Pro model image generation",
-            "Team collaboration tools",
-            "Custom branding options"
+            "Advanced text formatting & media embedding",
+            "5 shared workspaces",
+            "Priority customer support",
+            "Offline access",
+            "Tagging and categorization",
+            "AI-powered note suggestions",
+            "Version history & recovery",
+            "Custom templates"
         ],
-        link: "https://stripe.com/pro-plan-link"
+        link: "https://notesgalaxy.com/pro-plan"
     },
     {
         id: "enterprise",
         title: "Enterprise",
-        desc: "Tailored solutions for large organizations and agencies",
+        desc: "Comprehensive solutions for teams and organizations.",
         monthlyPrice: 15,
-        yearlyPrice: 180,
+        yearlyPrice: 150,
         badge: "Contact Sales",
         buttonText: "Upgrade to Enterprise",
         features: [
-            "Unlimited AI content generation",
-            "All social media integrations",
-            "Dedicated account manager",
-            "Unlimited projects",
-            "Custom analytics & reporting",
+            "Unlimited shared workspaces",
+            "Advanced collaboration tools",
+            "Team roles & permissions",
+            "Custom branding",
             "Enterprise-grade security",
-            "Free updates",
-            // "24/7 priority support"
+            "API access & integrations",
+            "Dedicated account manager",
+            "24/7 priority support"
         ],
-        link: "https://stripe.com/enterprise-plan-link"
+        link: "https://notesgalaxy.com/enterprise-plan"
     }
 ];
