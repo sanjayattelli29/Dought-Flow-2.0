@@ -29,7 +29,7 @@ const Footer = () => {
                             Elevate your learning experience with AI-powered note-taking.
                         </p>
                         <Button className="mt-8">
-                            <Link href="/app">
+                            <Link href="https://notes-galaxy.netlify.app/">
                                 Get Started for Free
                             </Link>
                         </Button>
@@ -60,14 +60,22 @@ const Footer = () => {
                         &copy; {new Date().getFullYear()} NotesGalaxy. All rights reserved.
                     </p>
                     <div className="flex items-center gap-4">
-                        <Link href="#" className="p-1">
+                        <Link href="https://www.instagram.com/editwithsanjay/" className="p-1">
                             <Icons.instagram className="w-5 h-5 text-muted-foreground hover:text-secondary-foreground" />
                         </Link>
-                        <Link href="#" className="p-1">
-                            <Icons.twitter className="w-5 h-5 text-muted-foreground hover:text-secondary-foreground" />
+                        <Link href="mailto:attellisanjay29@gmail.com" className="p-1">
+  <Icons.gmail className="w-5 h-5 text-muted-foreground hover:text-secondary-foreground" />
+</Link>
+
+                        <Link href="https://github.com/sanjayattelli29" className="p-1">
+                            <Icons.github className="w-5 h-5 text-muted-foreground hover:text-secondary-foreground" />
                         </Link>
-                        <Link href="#" className="p-1">
-                            <Icons.discord className="w-5 h-5 text-muted-foreground hover:text-secondary-foreground" />
+                        <Link href="https://wa.me/918919200290" className="p-1">
+                            <Icons.whatsapp className="w-5 h-5 text-muted-foreground hover:text-secondary-foreground" />
+                        </Link>
+                        
+                        <Link href="https://www.behance.net/attellisanjay/" className="p-1">
+                            <Icons.behance className="w-5 h-5 text-muted-foreground hover:text-secondary-foreground" />
                         </Link>
                     </div>
                 </Wrapper>

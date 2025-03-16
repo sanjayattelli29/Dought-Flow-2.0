@@ -26,7 +26,7 @@ export const PLANS: PLAN[] = [
             "1 shared workspace",
             "Standard search functionality"
         ],
-        link: "https://notesgalaxy.com/free-plan"
+        link: "https://notes-galaxy.netlify.app/"
     },
     {
         id: "pro",
@@ -46,7 +46,7 @@ export const PLANS: PLAN[] = [
             "Version history & recovery",
             "Custom templates"
         ],
-        link: "https://notesgalaxy.com/pro-plan"
+        link: "https://notes-galaxy.netlify.app/"
     },
     {
         id: "enterprise",
@@ -66,6 +66,6 @@ export const PLANS: PLAN[] = [
             "Dedicated account manager",
             "24/7 priority support"
         ],
-        link: "https://notesgalaxy.com/enterprise-plan"
+        link: "https://notes-galaxy.netlify.app/"
     }
 ];
